@@ -44,7 +44,7 @@ except:
 
 if CHAVE_GEMINI:
     genai.configure(api_key=CHAVE_GEMINI)
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-2.5-flash')
 
 # --- FUNÇÕES DE ENVIO ---
 def enviar_telegram(mensagem):
